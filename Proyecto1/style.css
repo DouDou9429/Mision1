@@ -1,0 +1,260 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #585d78, #b58585);
+  color: #263b46;
+}
+
+header,
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(26, 130, 120);
+  font-size: 46px;
+  text-align: center;
+  margin-bottom: 25px;
+  background-color: seashell;
+  border-radius: 23%;
+  box-shadow: 5px 5px 5px rgb(77, 123, 178);
+  transition: background-color 0.3s;
+}
+
+h3 {
+  font-size: 20px;
+  color: goldenrod;
+}
+
+h2 {
+  padding: 20px;
+  display: block;
+  color: #dfe7ee;
+  letter-spacing: 1rem;
+  font-family: "consolas", sans-serif;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+h2:hover {
+  background: #0b0c0c;
+  box-shadow: 0 0 20px rgb(90, 100, 110), 0 0 80px rgb(129, 129, 136),
+    0 0 160px blue, 0 0 320px rgb(199, 199, 212);
+  color: #deece0;
+  transition-delay: 0.3s;
+}
+
+.catalogo {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.artista {
+  width: 300px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.artista img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.artista h4 {
+  margin: 10px 0;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.botones button {
+  padding: 10px 15px;
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.botones button:hover {
+  background-color: #555;
+}
+
+form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  max-width: 500px;
+  margin: 40px auto;
+  border-radius: 10px;
+  display: none;
+  flex-direction: column;
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+#volverCatalogo {
+  display: none;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#volverCatalogo button {
+  padding: 10px 15px;
+  background-color: #222;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 40px;
+  background-color: #222;
+  color: white;
+  padding: 10px 0;
+}
+
+.Buscar {
+  display: 70%;
+}
+
+input {
+  width: 500px;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 30px black;
+}
+
+.Compartir {
+  width: 100%;
+
+  display: flex;
+  justify-content: end;
+
+  align-items: flex-start;
+  margin-top: 10px;
+
+  height: 0ch;
+  background: #0077b5;
+  box-shadow: 0 0 50px rgb(122, 144, 185), 0 0 80px rgb(110, 110, 173),
+    0 0 160px blue, 0 0 320px blue;
+  color: #ebeef0;
+  transition-delay: 0.3s;
+}
+
+#NumeroPaginas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 5px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px black;
+  justify-content: space-evenly;
+}
+
+div p {
+  padding: 20px;
+  display: block;
+  color: #eef1f3;
+  font-size: 20px;
+
+  letter-spacing: 0.5rem;
+  font-family: "consolas", sans-serif;
+}
+div p:hover {
+  background: #0077b5;
+  box-shadow: 0 0 50px rgb(122, 144, 185), 0 0 80px rgb(110, 110, 173),
+    0 0 160px blue, 0 0 320px blue;
+  color: #ebeef0;
+  transition-delay: 0.3s;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+redes-sociales {
+  display: flex;
+  justify-content: end;
+  gap: 70px;
+  margin-top: 20px;
+}
+
+.redes-sociales .facebook {
+  background-color: #3b5998;
+}
+.redes-sociales .twitter {
+  background-color: #55acee;
+}
+.redes-sociales .instagram {
+  background-color: #e4405f;
+}
+.redes-sociales .linkedin {
+  background-color: #0077b5;
+}
+
+.redes-sociales a:hover {
+  opacity: 0.8;
+}
+
+.redes {
+  width: 40px;
+   height: 40px;
+  justify-content: center;
+}
+
+body {
+  background-image: url(imagencarranga.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: gray;
+}
+
+p {
+  color: #555;
+  text-align: center;
+  width: 100%;
+  font-weight: 100%;
+}
